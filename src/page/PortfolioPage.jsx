@@ -6,7 +6,7 @@ import { Navbar } from "../components/navbar/Navbar"
 export const PortfolioPage = () => {
     return (
         <>
-            <div className="container">
+            <div className="w-full h-full snap-mandatory snap-y">
 
                 <Navbar />
 
