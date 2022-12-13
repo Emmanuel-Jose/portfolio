@@ -17,6 +17,7 @@ module.exports = {
         boxShadow: {
             'navbar-mobile': '6px 6px 0px #000000',
             'navbar': '8px 8px 0px #000000',
+            'home-titles': '8px 8px 0px #000000',
         },
         dropShadow: {
             'navbar-text': '-4px 4px 0px #000000',
