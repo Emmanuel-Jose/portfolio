@@ -11,8 +11,8 @@ export const Navbar = () => {
     const [ activeLink, setActiveLink ] = useState( null );
 
     return (
-        <div className='w-full flex justify-center items-center fixed top-3 md:top-6'>
-            <nav className="w-11/12 h-11 md:h-20 bg-yellow rounded-3xl shadow-navbar-mobile md:shadow-navbar">
+        <div className='w-full flex px-4 md:px-10 justify-center items-center fixed top-3 md:top-6'>
+            <nav className="w-full h-11 md:h-20 bg-yellow rounded-3xl shadow-navbar-mobile md:shadow-navbar">
 
                 <ul className='flex h-full justify-center md:justify-end gap-5 md:gap-9 items-center md:mr-9'>
                     {
